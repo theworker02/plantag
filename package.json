@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/plantag",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plan HTML/Markdown tag fragments safely for docs pipelines.",
+  "bin": {
+    "plantag": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/plantag.git"
+  },
+  "homepage": "https://theworker02.github.io/plantag/",
+  "keywords": [
+    "plan",
+    "tag",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
